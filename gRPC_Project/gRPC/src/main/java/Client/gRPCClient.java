@@ -7,10 +7,10 @@ import io.grpc.ManagedChannelBuilder;
 
 import java.util.Scanner;
 
-public class StudentClient {
+public class gRPCClient {
     public static void main(String[] args) {
 
-        ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost", 1234).usePlaintext().build();
+        ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost", 1222).usePlaintext().build();
         studentGrpc.studentBlockingStub studentBlockingStub = new studentGrpc.studentBlockingStub(managedChannel);
 
 

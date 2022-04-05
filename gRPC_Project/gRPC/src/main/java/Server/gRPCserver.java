@@ -6,9 +6,9 @@ import io.grpc.ServerBuilder;
 
 import java.io.IOException;
 
-public class server {
+public class gRPCserver {
     public static void main(String[] args) throws IOException, InterruptedException {
-        Server server = ServerBuilder.forPort(1234).addService(new registration()).build();
+        Server server = ServerBuilder.forPort(1222).addService(new registration()).build();
         server.start();
         System.out.println("Server started at " + server.getPort());
         server.awaitTermination();

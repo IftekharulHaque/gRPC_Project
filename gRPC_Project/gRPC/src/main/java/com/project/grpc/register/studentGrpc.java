@@ -19,7 +19,7 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
  */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.15.0)",
-    comments = "Source: student.proto")
+    comments = "Source: user.proto")
 public final class studentGrpc {
 
   private studentGrpc() {}
@@ -27,30 +27,30 @@ public final class studentGrpc {
   public static final String SERVICE_NAME = "student";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<com.project.grpc.register.Student.LoginRequest,
-      com.project.grpc.register.Student.Response> getLoginMethod;
+  private static volatile io.grpc.MethodDescriptor<com.project.grpc.register.User.LoginRequest,
+      com.project.grpc.register.User.Response> getLoginMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "Login",
-      requestType = com.project.grpc.register.Student.LoginRequest.class,
-      responseType = com.project.grpc.register.Student.Response.class,
+      requestType = com.project.grpc.register.User.LoginRequest.class,
+      responseType = com.project.grpc.register.User.Response.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.project.grpc.register.Student.LoginRequest,
-      com.project.grpc.register.Student.Response> getLoginMethod() {
-    io.grpc.MethodDescriptor<com.project.grpc.register.Student.LoginRequest, com.project.grpc.register.Student.Response> getLoginMethod;
+  public static io.grpc.MethodDescriptor<com.project.grpc.register.User.LoginRequest,
+      com.project.grpc.register.User.Response> getLoginMethod() {
+    io.grpc.MethodDescriptor<com.project.grpc.register.User.LoginRequest, com.project.grpc.register.User.Response> getLoginMethod;
     if ((getLoginMethod = studentGrpc.getLoginMethod) == null) {
       synchronized (studentGrpc.class) {
         if ((getLoginMethod = studentGrpc.getLoginMethod) == null) {
           studentGrpc.getLoginMethod = getLoginMethod = 
-              io.grpc.MethodDescriptor.<com.project.grpc.register.Student.LoginRequest, com.project.grpc.register.Student.Response>newBuilder()
+              io.grpc.MethodDescriptor.<com.project.grpc.register.User.LoginRequest, com.project.grpc.register.User.Response>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "student", "Login"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.project.grpc.register.Student.LoginRequest.getDefaultInstance()))
+                  com.project.grpc.register.User.LoginRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.project.grpc.register.Student.Response.getDefaultInstance()))
+                  com.project.grpc.register.User.Response.getDefaultInstance()))
                   .setSchemaDescriptor(new studentMethodDescriptorSupplier("Login"))
                   .build();
           }
@@ -59,30 +59,30 @@ public final class studentGrpc {
      return getLoginMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<com.project.grpc.register.Student.RegisterRequest,
-      com.project.grpc.register.Student.RegResponse> getRegisterMethod;
+  private static volatile io.grpc.MethodDescriptor<com.project.grpc.register.User.RegisterRequest,
+      com.project.grpc.register.User.RegResponse> getRegisterMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "Register",
-      requestType = com.project.grpc.register.Student.RegisterRequest.class,
-      responseType = com.project.grpc.register.Student.RegResponse.class,
+      requestType = com.project.grpc.register.User.RegisterRequest.class,
+      responseType = com.project.grpc.register.User.RegResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.project.grpc.register.Student.RegisterRequest,
-      com.project.grpc.register.Student.RegResponse> getRegisterMethod() {
-    io.grpc.MethodDescriptor<com.project.grpc.register.Student.RegisterRequest, com.project.grpc.register.Student.RegResponse> getRegisterMethod;
+  public static io.grpc.MethodDescriptor<com.project.grpc.register.User.RegisterRequest,
+      com.project.grpc.register.User.RegResponse> getRegisterMethod() {
+    io.grpc.MethodDescriptor<com.project.grpc.register.User.RegisterRequest, com.project.grpc.register.User.RegResponse> getRegisterMethod;
     if ((getRegisterMethod = studentGrpc.getRegisterMethod) == null) {
       synchronized (studentGrpc.class) {
         if ((getRegisterMethod = studentGrpc.getRegisterMethod) == null) {
           studentGrpc.getRegisterMethod = getRegisterMethod = 
-              io.grpc.MethodDescriptor.<com.project.grpc.register.Student.RegisterRequest, com.project.grpc.register.Student.RegResponse>newBuilder()
+              io.grpc.MethodDescriptor.<com.project.grpc.register.User.RegisterRequest, com.project.grpc.register.User.RegResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "student", "Register"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.project.grpc.register.Student.RegisterRequest.getDefaultInstance()))
+                  com.project.grpc.register.User.RegisterRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.project.grpc.register.Student.RegResponse.getDefaultInstance()))
+                  com.project.grpc.register.User.RegResponse.getDefaultInstance()))
                   .setSchemaDescriptor(new studentMethodDescriptorSupplier("Register"))
                   .build();
           }
@@ -91,30 +91,30 @@ public final class studentGrpc {
      return getRegisterMethod;
   }
 
-  private static volatile io.grpc.MethodDescriptor<com.project.grpc.register.Student.LogoutRequest,
-      com.project.grpc.register.Student.Response> getLogoutMethod;
+  private static volatile io.grpc.MethodDescriptor<com.project.grpc.register.User.LogoutRequest,
+      com.project.grpc.register.User.Response> getLogoutMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "Logout",
-      requestType = com.project.grpc.register.Student.LogoutRequest.class,
-      responseType = com.project.grpc.register.Student.Response.class,
+      requestType = com.project.grpc.register.User.LogoutRequest.class,
+      responseType = com.project.grpc.register.User.Response.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.project.grpc.register.Student.LogoutRequest,
-      com.project.grpc.register.Student.Response> getLogoutMethod() {
-    io.grpc.MethodDescriptor<com.project.grpc.register.Student.LogoutRequest, com.project.grpc.register.Student.Response> getLogoutMethod;
+  public static io.grpc.MethodDescriptor<com.project.grpc.register.User.LogoutRequest,
+      com.project.grpc.register.User.Response> getLogoutMethod() {
+    io.grpc.MethodDescriptor<com.project.grpc.register.User.LogoutRequest, com.project.grpc.register.User.Response> getLogoutMethod;
     if ((getLogoutMethod = studentGrpc.getLogoutMethod) == null) {
       synchronized (studentGrpc.class) {
         if ((getLogoutMethod = studentGrpc.getLogoutMethod) == null) {
           studentGrpc.getLogoutMethod = getLogoutMethod = 
-              io.grpc.MethodDescriptor.<com.project.grpc.register.Student.LogoutRequest, com.project.grpc.register.Student.Response>newBuilder()
+              io.grpc.MethodDescriptor.<com.project.grpc.register.User.LogoutRequest, com.project.grpc.register.User.Response>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "student", "Logout"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.project.grpc.register.Student.LogoutRequest.getDefaultInstance()))
+                  com.project.grpc.register.User.LogoutRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.project.grpc.register.Student.Response.getDefaultInstance()))
+                  com.project.grpc.register.User.Response.getDefaultInstance()))
                   .setSchemaDescriptor(new studentMethodDescriptorSupplier("Logout"))
                   .build();
           }
@@ -152,22 +152,22 @@ public final class studentGrpc {
 
     /**
      */
-    public void login(com.project.grpc.register.Student.LoginRequest request,
-        io.grpc.stub.StreamObserver<com.project.grpc.register.Student.Response> responseObserver) {
+    public void login(com.project.grpc.register.User.LoginRequest request,
+        io.grpc.stub.StreamObserver<com.project.grpc.register.User.Response> responseObserver) {
       asyncUnimplementedUnaryCall(getLoginMethod(), responseObserver);
     }
 
     /**
      */
-    public void register(com.project.grpc.register.Student.RegisterRequest request,
-        io.grpc.stub.StreamObserver<com.project.grpc.register.Student.RegResponse> responseObserver) {
+    public void register(com.project.grpc.register.User.RegisterRequest request,
+        io.grpc.stub.StreamObserver<com.project.grpc.register.User.RegResponse> responseObserver) {
       asyncUnimplementedUnaryCall(getRegisterMethod(), responseObserver);
     }
 
     /**
      */
-    public void logout(com.project.grpc.register.Student.LogoutRequest request,
-        io.grpc.stub.StreamObserver<com.project.grpc.register.Student.Response> responseObserver) {
+    public void logout(com.project.grpc.register.User.LogoutRequest request,
+        io.grpc.stub.StreamObserver<com.project.grpc.register.User.Response> responseObserver) {
       asyncUnimplementedUnaryCall(getLogoutMethod(), responseObserver);
     }
 
@@ -177,22 +177,22 @@ public final class studentGrpc {
             getLoginMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                com.project.grpc.register.Student.LoginRequest,
-                com.project.grpc.register.Student.Response>(
+                com.project.grpc.register.User.LoginRequest,
+                com.project.grpc.register.User.Response>(
                   this, METHODID_LOGIN)))
           .addMethod(
             getRegisterMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                com.project.grpc.register.Student.RegisterRequest,
-                com.project.grpc.register.Student.RegResponse>(
+                com.project.grpc.register.User.RegisterRequest,
+                com.project.grpc.register.User.RegResponse>(
                   this, METHODID_REGISTER)))
           .addMethod(
             getLogoutMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                com.project.grpc.register.Student.LogoutRequest,
-                com.project.grpc.register.Student.Response>(
+                com.project.grpc.register.User.LogoutRequest,
+                com.project.grpc.register.User.Response>(
                   this, METHODID_LOGOUT)))
           .build();
     }
@@ -218,24 +218,24 @@ public final class studentGrpc {
 
     /**
      */
-    public void login(com.project.grpc.register.Student.LoginRequest request,
-        io.grpc.stub.StreamObserver<com.project.grpc.register.Student.Response> responseObserver) {
+    public void login(com.project.grpc.register.User.LoginRequest request,
+        io.grpc.stub.StreamObserver<com.project.grpc.register.User.Response> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getLoginMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void register(com.project.grpc.register.Student.RegisterRequest request,
-        io.grpc.stub.StreamObserver<com.project.grpc.register.Student.RegResponse> responseObserver) {
+    public void register(com.project.grpc.register.User.RegisterRequest request,
+        io.grpc.stub.StreamObserver<com.project.grpc.register.User.RegResponse> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getRegisterMethod(), getCallOptions()), request, responseObserver);
     }
 
     /**
      */
-    public void logout(com.project.grpc.register.Student.LogoutRequest request,
-        io.grpc.stub.StreamObserver<com.project.grpc.register.Student.Response> responseObserver) {
+    public void logout(com.project.grpc.register.User.LogoutRequest request,
+        io.grpc.stub.StreamObserver<com.project.grpc.register.User.Response> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getLogoutMethod(), getCallOptions()), request, responseObserver);
     }
@@ -261,21 +261,21 @@ public final class studentGrpc {
 
     /**
      */
-    public com.project.grpc.register.Student.Response login(com.project.grpc.register.Student.LoginRequest request) {
+    public com.project.grpc.register.User.Response login(com.project.grpc.register.User.LoginRequest request) {
       return blockingUnaryCall(
           getChannel(), getLoginMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public com.project.grpc.register.Student.RegResponse register(com.project.grpc.register.Student.RegisterRequest request) {
+    public com.project.grpc.register.User.RegResponse register(com.project.grpc.register.User.RegisterRequest request) {
       return blockingUnaryCall(
           getChannel(), getRegisterMethod(), getCallOptions(), request);
     }
 
     /**
      */
-    public com.project.grpc.register.Student.Response logout(com.project.grpc.register.Student.LogoutRequest request) {
+    public com.project.grpc.register.User.Response logout(com.project.grpc.register.User.LogoutRequest request) {
       return blockingUnaryCall(
           getChannel(), getLogoutMethod(), getCallOptions(), request);
     }
@@ -301,24 +301,24 @@ public final class studentGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<com.project.grpc.register.Student.Response> login(
-        com.project.grpc.register.Student.LoginRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.project.grpc.register.User.Response> login(
+        com.project.grpc.register.User.LoginRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getLoginMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<com.project.grpc.register.Student.RegResponse> register(
-        com.project.grpc.register.Student.RegisterRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.project.grpc.register.User.RegResponse> register(
+        com.project.grpc.register.User.RegisterRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getRegisterMethod(), getCallOptions()), request);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<com.project.grpc.register.Student.Response> logout(
-        com.project.grpc.register.Student.LogoutRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.project.grpc.register.User.Response> logout(
+        com.project.grpc.register.User.LogoutRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getLogoutMethod(), getCallOptions()), request);
     }
@@ -346,16 +346,16 @@ public final class studentGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_LOGIN:
-          serviceImpl.login((com.project.grpc.register.Student.LoginRequest) request,
-              (io.grpc.stub.StreamObserver<com.project.grpc.register.Student.Response>) responseObserver);
+          serviceImpl.login((com.project.grpc.register.User.LoginRequest) request,
+              (io.grpc.stub.StreamObserver<com.project.grpc.register.User.Response>) responseObserver);
           break;
         case METHODID_REGISTER:
-          serviceImpl.register((com.project.grpc.register.Student.RegisterRequest) request,
-              (io.grpc.stub.StreamObserver<com.project.grpc.register.Student.RegResponse>) responseObserver);
+          serviceImpl.register((com.project.grpc.register.User.RegisterRequest) request,
+              (io.grpc.stub.StreamObserver<com.project.grpc.register.User.RegResponse>) responseObserver);
           break;
         case METHODID_LOGOUT:
-          serviceImpl.logout((com.project.grpc.register.Student.LogoutRequest) request,
-              (io.grpc.stub.StreamObserver<com.project.grpc.register.Student.Response>) responseObserver);
+          serviceImpl.logout((com.project.grpc.register.User.LogoutRequest) request,
+              (io.grpc.stub.StreamObserver<com.project.grpc.register.User.Response>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -379,7 +379,7 @@ public final class studentGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return com.project.grpc.register.Student.getDescriptor();
+      return com.project.grpc.register.User.getDescriptor();
     }
 
     @java.lang.Override

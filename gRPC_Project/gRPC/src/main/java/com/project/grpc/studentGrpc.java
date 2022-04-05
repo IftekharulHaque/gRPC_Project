@@ -14,7 +14,7 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
  */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.15.0)",
-    comments = "Source: student.proto")
+    comments = "Source: user.proto")
 public final class studentGrpc {
 
   private studentGrpc() {}

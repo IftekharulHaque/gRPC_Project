@@ -1,7 +1,8 @@
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\com\project\grpc\Student.java
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\Client\StudentClient.java
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\Service\registration.java
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\com\project\grpc\register\Student.java
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\Server\server.java
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\com\project\grpc\register\studentGrpc.java
-C:\Users\iftek\Desktop\gRPC-Student_Registration-main\gRPC\src\main\java\com\project\grpc\studentGrpc.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\Client\gRPCClient.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\Server\gRPCserver.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\com\project\grpc\register\Student.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\com\project\grpc\Student.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\com\project\grpc\register\User.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\com\project\grpc\register\studentGrpc.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\Service\registration.java
+E:\gRPC_Project\gRPC_Project\gRPC\src\main\java\com\project\grpc\studentGrpc.java
